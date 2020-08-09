@@ -1,1 +1,96 @@
-<h1 id="title">Tell Me About Books</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+   <style>
+     body {
+       font-family: ;
+       padding-left: 20%;
+       padding-right: 20%;
+       
+
+     }
+     label {
+       font-size: 18px;
+       display: block;
+       padding-bottom: 10px;
+     }
+   
+     form {
+       background-color: #edb779;
+       padding: 10px 10px 10px 10px;
+     }
+     .radio-incline { 
+       
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </style>    
+
+ </head>
+
+ <body>
+  <h1 id="title">Tell Me About Books</h1>
+  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <p id="description">
+    This is a survey about the books that you enjoy reading.
+   </p>
+   <form id="survey-form">
+       <label id="name-label">Name:</label> 
+       <input type="text" name="name" id="name"  required placeholder="First Name"><br>
+       <label id="email-label">Email:</label> 
+       <input type="email" name="email" id="email"  required placeholder="Best Email"><br>
+       <label id="number-label">Number:</label> 
+       <input type="number" name="number" min="0" max="10" id="number"  required placeholder="Level of Excitement"><br>
+
+
+       <label for="Books">Choose a book:</label>
+          <select id="dropdown" name="Books">
+            <option value="fiction">Fiction</option>
+            <option value="non-fiction">Non-Fiction</option>
+            <option value="historic">Historic</option>
+            <option value="science-fiction">Science-Fiction</option>
+         </select>
+
+
+         <br>
+         <label id="gender-label">Gender:</label> 
+         <input type="radio" class="radio-incline" id="male" name="gender" value="male">
+           <label for="male">Male</label><br>
+         <input type="radio" class="radio-incline" id="female" name="gender" value="female">
+           <label for="female">Female</label><br>
+         <input type="radio" class="radio-incline" id="other" name="gender" value="other">
+           <label for="other">Other</label>
+        </br>
+        <label id="transportation-label">Transportation Type:</label> 
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> I have a boat</label><br>
+
+          <textarea placeholder="Additional Comments"></textarea>
+          
+            <input type="submit" id="submit">
+            
+
+
+
+   </form>
+
+
+ </body>
+</html>    
